@@ -1,8 +1,12 @@
 import "./App.css";
-import Title from "./Title";
+import ProductTab from "./ProductTab.jsx";
 
 function App() {
-  return <Title/>;
+  return (
+    <>
+      <ProductTab/>
+    </>
+  );
 }
 
 export default App;
